@@ -1,0 +1,5 @@
+RewriteEngine  on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^undefined$ undefined.php
+ErrorDocument 404 '<meta http-equiv="refresh" content="1;url=index.php">'
