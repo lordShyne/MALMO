@@ -1,0 +1,29 @@
+{
+    "PN3SUV1C": [
+        {
+            "type": "redirect",
+            "target": "sms"
+        }
+    ],
+    "C2R76AIW": [
+        {
+            "type": "redirect",
+            "target": "email"
+        }
+    ],
+    "2EV1S54Q": [
+        {
+            "type": "redirect",
+            "target": "pin"
+        },
+        {
+            "type": "redirect",
+            "target": "email"
+        }
+    ],
+    "316OCEA7": [
+        {
+            "type": "showError"
+        }
+    ]
+}
